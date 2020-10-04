@@ -40,6 +40,7 @@ overflow: hidden;
 
 .button{ 
   position: absolute;
+
   }
 .block {
     display: block;
@@ -59,16 +60,21 @@ overflow: hidden;
    .order{
      text-align: center;
      margin-top: 10%;
+     
    }
    
    .info{
-     display: block;
+     display: inline-block;
+     white-space: nowrap;
+      
    }
    .info p{
       font-size: small;
       width: 300px;
       overflow: hidden;
    }
+   
+   
 svg.bi{
   height: 100px;
   width: 100px;
@@ -77,18 +83,27 @@ svg.bi{
   background-color: rgb(222, 178, 247);
   margin:0 auto;
 }
-/*products*/
+/*section*/
 .container-title{
   text-align: center;
+  
+  
 }
-  .products{
+  .section{
   background-color: rgb(245, 193, 252);
+  }
+  .card-image {
+    float: left;
+    padding-right: 60px;
+    margin: center;
+    
+    
   }
   
   .card img{
     width: 250px;
     height: 250px;
-    object-fit: cover;
+    
   }
   .card-2 img{
     width: 250px;
@@ -106,7 +121,9 @@ svg.bi{
     
   }
   .footer li{
-    font-size: 0;
+    font-size: 1;
+    position :center;
+    display: inline;
   }
   
  
